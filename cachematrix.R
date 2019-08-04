@@ -51,8 +51,10 @@ cacheSolve <- function(x, ...) {
   inv
 }
 
-## Utility to test cache solve.
-##
+## Utility to test cache solve. 
+## Example borrowed from:
+## - https://www.mathsisfun.com/algebra/matrix-inverse.html
+## 
 ## @param m The test matrix.
 ## @param e The expected solution.
 test_cacheSolve <- function(
